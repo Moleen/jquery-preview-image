@@ -5,8 +5,6 @@ The `ImagePreview` class provides functionality to preview images dynamically wh
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Methods](#methods)
-- [Example](#example)
 
 ## Installation
 
@@ -14,3 +12,13 @@ The `ImagePreview` class provides functionality to preview images dynamically wh
    
    ```html
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   ```
+2. Include the JavaScript file containing the `ImagePreview` class in your project.
+   ```html
+   <script src="path/to/your/preview-image.js"></script>
+   ```
+## Usage
+   ```html
+   <input type="file" data-preview-target="image-preview" />
+   <img data-preview="image-preview" src="path/to/default/image.jpg" />
+   ```
