@@ -20,7 +20,7 @@ The `ImagePreview` class provides functionality to preview images dynamically wh
 ## Usage
 1. Create a file input element and an image element where the preview will be displayed.
    ```html
-   <input type="file" data-preview-target="image-preview" />
+   <input type="file" id="some_input" data-preview-target="image-preview" />
    <img data-preview="image-preview" src="path/to/default/image.jpg" />
    ```
 2. Instantiate the ImagePreview class 
