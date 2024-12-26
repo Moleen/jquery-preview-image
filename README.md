@@ -18,7 +18,13 @@ The `ImagePreview` class provides functionality to preview images dynamically wh
    <script src="path/to/your/preview-image.js"></script>
    ```
 ## Usage
+1. Create a file input element and an image element where the preview will be displayed.
    ```html
    <input type="file" data-preview-target="image-preview" />
    <img data-preview="image-preview" src="path/to/default/image.jpg" />
+   ```
+2. Instantiate the ImagePreview class 
+   ```html
+   import { ImagePreview } from "./preview-image"
+   const previewImage  =  new ImagePreview($('#some_input'))
    ```
